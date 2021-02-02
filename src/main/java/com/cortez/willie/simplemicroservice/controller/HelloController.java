@@ -9,4 +9,9 @@ public class HelloController {
     public String hello(){
         return "Hello from Azure Spring Cloud\n";
     }
+
+    @GetMapping("/hola")
+    public String hola(){
+        return "En espaniol amigos!";
+    }
 }
